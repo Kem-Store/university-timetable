@@ -1,0 +1,229 @@
+#manga_bar {
+	background-color:#11abab;
+	display:inline-table;
+	width:1050px;
+	height:4px;
+}
+#manga_background {	
+	background:#f0f0f0 url(../../images/bgmain.jpg) repeat-x;	
+}
+#manga_logo {
+	background:url(../../images/logo_timetable.jpg) center no-repeat;	
+	text-align:center;
+	height:80px;
+	margin:90px 0 30px 0;
+}
+#manga_body {
+	width:1050px;
+	border-left:#bababa solid 1px;
+}
+#manga_menu {
+	vertical-align:top;
+	width:190px;
+	background:url(../../images/bgmenu.jpg) repeat-y;
+	padding:5px 15px 5px 5px;
+}
+#manga_main {
+	vertical-align:top;
+	background-color:#ffffff;
+	border-right:#bababa solid 1px;
+	padding:5px 0 30px 20px;
+}
+#manga_title {
+	vertical-align:top;
+	padding:110px 0 0 20px;
+	width:220px;
+	font-size:18px;
+	color:#ffffff;
+}
+#manga_subtitle {
+	color:#999999;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+.main_head {
+	font-size:20px;
+	font-weight:bold;
+	font-family:Arial;
+	padding:30px 0 0 30px;
+}
+.main_subhead {
+	font-size:9px;
+	font-family:Arial;
+	color:#AAA;
+	margin:-8px 0 0 20px;
+	padding:0 10px 0 10px;
+	background-color:#FFF;
+	position:absolute;
+}
+.main_line {
+	border-top:#F0F0F0 solid 1px;
+	height:40px;
+	margin:10px 30px 10px 0;
+}
+.main_color {
+	color:#11abb9;	
+}
+
+.step_list {
+	display:block;
+	width:150px;
+	text-align:right;
+	font-size:11px;
+	font-weight:bold;
+	padding:7px 10px 7px 10px;
+	margin:5px;
+	background:none;
+	border:none;
+	border-bottom:#666 solid 1px;
+	border-left:#fdfdfd solid 4px;
+}
+.step_list:hover {
+	color:#11abab;
+	cursor:pointer;
+}
+.step_list:disabled {
+	color:#bababa;
+	border-bottom:#bababa solid 1px;	
+	cursor:default;
+	text-align:left;
+}
+.main_title {
+	font-size:16px;
+	font-weight:bolder;
+	font-family:Arial;
+}
+.main_subtitle {
+	font-size:9px;
+	color:#999;
+}
+.main_date {
+	text-align:right;
+	color:#999;
+	border-right:#CCCCCC solid 4px;
+	padding:5px;
+}
+.main_details {
+	padding-right:5px;
+	padding:8px;
+}
+
+#main_verify, #main_image, #main_download {
+	border-top:#F0F0F0 solid 1px;
+	padding:10px 0 0 0;
+}
+#urlrequest {
+	width:100%;	
+}
+
+/* Login */
+#box-close {
+	position:absolute;
+	display:inline-block;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	margin:6px 6px 0 0;
+	right:0px;
+	height:24px;
+	width:24px;
+}
+#box-close { background:url(../../images/close.png) 0px 0px no-repeat; }
+#box-close:hover { background:url(../../images/close.png) -24px 0px no-repeat; }
+#main_process {
+	height:400px;
+	overflow-y:scroll;	
+	border:#F0F0F0 solid 1px;
+	padding:5px;
+}
+#form_edit_teacher, #form_edit_science, #form_part_study {
+	display:inline-table;
+	border:#999 solid 2px;
+	background-color:#FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+#username { background:url(../../images/1315842827_username.png) 1px 1px no-repeat; }
+#password { background:url(../../images/1315842854_password.png) 1px 1px no-repeat; }
+
+#username, #password {
+	width:180px;
+	border:none;
+	font-size:11px;
+	padding:3px 3px 3px 20px;
+}
+.box_username, .box_password {
+	background-color:#CDCDCD;
+	border-right:#333 solid 4px;
+	padding:3px !important;
+	margin:5px !important;
+}
+
+#login_form div {
+	padding:8px;
+}
+#login_error {
+	background:url(../../images/warning_16.png) no-repeat;
+	height:16px;
+	padding:2px 0 2px 22px;
+	margin-left:20px;
+	color:#900;
+}
+#yes_logout, #no_logout, #login, #edit_teacher, #del_teacher, #edit_science, #del_science, #edit_study, #del_study, #find_timetable { 
+	width:131px;
+	height:31px;
+	font-weight:bold;
+	color:#FFF;
+	background:url(../../images/btnSite.jpg) no-repeat;
+	margin:3px;
+}
+
+
+#yes_logout:hover, #no_logout:hover, #login:hover, #edit_teacher:hover, #del_teacher:hover, #edit_science:hover, #del_science:hover, #edit_study:hover, #del_study:hover, #find_timetable:hover  { color:#11abab; }
+
+#main_menu {
+	padding:20px 0 5px 10px;	
+}
+.teacher_edit:hover {
+	background-color:#b2e4e9;
+	cursor:pointer;
+}
+.view_table {
+	font-size:11px;
+	font-weight:bold;
+}
+
+.text_science { text-align:center; font-weight:bold; margin-top:5px; }
+.text_teacher { text-align:center; }
+.text_room { text-align:center; }
+#main_table {
+	border-left:#f1f1f1 solid 1px;
+	height:300px;
+	z-index:0;
+}
+.table_day {
+	position:relative;
+	height:200px;
+	width:630px;
+}
+
+.block {
+	border-left:#f1f1f1 solid 1px;
+	border-right:#f1f1f1 solid 1px;
+	border-bottom:#f1f1f1 dashed 1px;
+	background-color:#FFF;
+	display:inline-block;	
+	height:49px;
+}
+.edit_block {
+	display:inline-block;	
+	height:50px;
+	z-index:1;
+}
+.edit_block {background-color:#e7e7e7; cursor:default;  }
+.edit_block:hover { background-color:#ccffcc; }
+
+
