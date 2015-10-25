@@ -1,4 +1,5 @@
 <?php 
+error_reporting(E_ALL);
 foreach (glob("cgi-bin/*.php") as $filename) include_once($filename);
 $config = ini::SettingArray('default.ini');
 
