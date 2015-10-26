@@ -122,7 +122,7 @@ function partAdd() {
 			}),
 			dataType: "html",
 			error: function() {	alert("Error: Timetable Add Study"); },
-			success: function(data) { tableChange(); }
+			success: function(data) { console.log(data); tableChange(); }
 		});
 	}
 }
