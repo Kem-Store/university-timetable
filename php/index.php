@@ -90,12 +90,7 @@ $(document).ready(function() { $.ajaxSetup({ type: 'POST', dataType: 'json' }); 
 </script>
 <body>
 <?php
-if(file_exists('site/index.php'))
-{
-	include_once('site/index.php');
-} else {
-	include_once('plugins/default.php');
-}
+include_once('site/index.php');
 ?>
 </body>
 </html>

@@ -18,8 +18,8 @@ $(function(){
   <table id="manga_body" border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td id="manga_menu"><div id="manga_logo"><?php
-		$session = new Session();
-		$database = new SyncDatabase(); ?>
+      		$session = new Session();
+      		$database = new SyncDatabase(); ?>
         </div>
         <span <?php if($session->Value('USER')) echo 'style="display:none;"'; ?>><a href="?component=access&mode=in"><span class="step_list"><?php echo _LOGIN_LOGIN; ?></span></a></span>  
         <div id="level1">
